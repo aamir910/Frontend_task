@@ -53,13 +53,13 @@ function RequestHistory() {
         <div className="overflow-x-auto">
           <table className="w-full text-left">
             <thead>
-              <tr className=" bg-[#F7FAFC] text-xs text-gray-500 bg-white border-b border-[#F2F4F7]">
-                <th className="py-3 px-6 font-medium">Performed By</th>
-                <th className="py-3 px-6 font-medium">Assigned To</th>
-                <th className="py-3 px-6 font-medium">Date & Time</th>
-                <th className="py-3 px-6 font-medium">Comments</th>
-                <th className="py-3 px-6 font-medium">Action Taken</th>
-                <th className="py-3 px-2"></th>
+              <tr className=" bg-[#EDF2F7] text-xs text-gray-500 bg-white border-b border-[#F2F4F7]">
+                <th className="py-3 px-6 font-medium bg-[#EDF2F7] ">Performed By</th>
+                <th className="py-3 px-6 font-medium bg-[#EDF2F7] ">Assigned To</th>
+                <th className="py-3 px-6 font-medium bg-[#EDF2F7] ">Date & Time</th>
+                <th className="py-3 px-6 font-medium bg-[#EDF2F7] ">Comments</th>
+                <th className="py-3 px-6 font-medium bg-[#EDF2F7] ">Action Taken</th>
+                <th className="py-3 px-2 bg-[#EDF2F7] "></th>
               </tr>
             </thead>
             <tbody>
@@ -74,7 +74,7 @@ function RequestHistory() {
                   <td className="py-3 px-6 align-top text-sm text-gray-700 whitespace-pre-line">{req.assignedTo}</td>
                   <td className="py-3 px-6 align-top text-sm text-gray-700 whitespace-pre-line">{req.dateTime}</td>
                   <td className="py-3 px-6 align-top text-sm text-gray-700 whitespace-pre-line">{req.comments}</td>
-                  <td className="py-3 px-6 align-top">
+                  <td className="py-3 px-6 align-top whitespace-nowrap">
                     <span className={`px-3 py-1 rounded-full text-xs font-semibold ${ACTION_BADGE[req.action] || 'bg-gray-100 text-gray-500'}`}>{req.action}</span>
                   </td>
                   <td className="py-3 px-2 align-top">
