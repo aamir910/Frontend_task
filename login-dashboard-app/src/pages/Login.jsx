@@ -97,6 +97,7 @@ function Login() {
             style={{borderRadius: '12px'}}
           />
           <div className="absolute bottom-0 left-0 w-full flex flex-col items-center pb-12 bg-gradient-to-t from-teal-700/60 via-transparent to-transparent">
+          {/* here will be logoicon  */}
             <p className="text-white text-2xl font-bold drop-shadow-lg">Your way to success</p>
           </div>
         </div>
