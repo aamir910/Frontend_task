@@ -17,7 +17,7 @@ const Dashboard = () => {
       </div>
       
       {/* Main content area with proper offset for fixed sidebar */}
-      <div className="flex-1 flex flex-col bg-[#F6F8FA]">
+      <div className="flex-1 flex flex-col bg-[#F6F8FA] rounded-xl  ">
         <Header />
         
         {/* Main Content Container */}

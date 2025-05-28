@@ -12,8 +12,8 @@ function CompanyDetails() {
   }
 
   return (
-    <div className="w-full">
-      <div className="bg-white rounded-lg shadow p-6 w-full">
+    <div className="max-w-full">
+      <div className="bg-white rounded-lg shadow p-6 max-w-full">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           <div>
             <h1 className="text-lg font-semibold mb-1">Lorem Ipsum Request</h1>

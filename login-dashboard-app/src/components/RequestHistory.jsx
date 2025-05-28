@@ -34,8 +34,8 @@ function RequestHistory() {
   }
 
   return (
-    <div className="w-full">
-      <Card className="p-0">
+    <div className="max-w-full">
+      <Card className="p-0 max-w-full">
         <div className="bg-[white] rounded-t-xl px-6 py-4 flex items-center justify-between border-b border-[#F2F4F7]">
           <span className="text-lg font-semibold text-gray-800">Request history</span>
           <div className="flex items-center gap-2">

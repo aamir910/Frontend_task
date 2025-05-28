@@ -16,6 +16,8 @@ const Header = () => {
   };
 
   return (
+    <div className="bg-white rounded-xl shadow p-0 mx-6 ">
+
     <Card className="flex flex-col  rounded-xl  md:flex-row md:items-center md:justify-between rounded-xl  gap-4 border-b-0 rounded-b-none rounded-t-lg shadow-none rounded-xl ">
       <div className="flex items-center gap-4 flex-1">
         <nav className="text-xs text-gray-400 flex items-center gap-2">
@@ -61,6 +63,7 @@ const Header = () => {
         </div>
       </div>
     </Card>
+    </div>
   );
 };
 
