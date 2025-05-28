@@ -4,7 +4,7 @@ import { loginStart, loginSuccess, loginFailure } from '../store/authSlice';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import loginBackground from '../images/login_backGround.png'
-import LogoIcon2 from '../components/icons/LogoIcon2';
+import LogoIcon2 from '../icons/LogoIcon2';
 
 function Login() {
   const [email, setEmail] = useState('');

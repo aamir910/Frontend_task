@@ -9,9 +9,9 @@ import {
   Settings, 
   Bell 
 } from 'lucide-react';
-import LogoIcon from './icons/LogoIcon';
-import LogoIcon2 from './icons/LogoIcon2';
-import MenuIcon from './icons/MenuIcon';
+import LogoIcon from '../icons/LogoIcon';
+import LogoIcon2 from '../icons/LogoIcon2';
+import MenuIcon from '../icons/MenuIcon';
 
 const Sidebar = () => {
   const menuItems = [
