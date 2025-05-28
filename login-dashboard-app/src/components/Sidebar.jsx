@@ -10,6 +10,7 @@ import {
   Bell 
 } from 'lucide-react';
 import LogoIcon from './icons/LogoIcon';
+import LogoIcon2 from './icons/LogoIcon2';
 
 const Sidebar = () => {
   const menuItems = [
@@ -30,7 +31,7 @@ const Sidebar = () => {
       {/* Header */}
       <div className="p-4 border-b border-white/10">
         <div className="flex items-center justify-between">
-          <h1 className="text-lg font-semibold">logipsum</h1>
+          <LogoIcon2 />
           <div className="w-8 h-8 bg-white/20 rounded flex items-center justify-center">
             <span className="text-sm">⊞</span>
           </div>

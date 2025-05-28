@@ -4,6 +4,7 @@ import { loginStart, loginSuccess, loginFailure } from '../store/authSlice';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import loginBackground from '../images/login_backGround.png'
+import LogoIcon2 from '../components/icons/LogoIcon2';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -97,8 +98,9 @@ function Login() {
             style={{borderRadius: '12px'}}
           />
           <div className="absolute bottom-0 left-0 w-full flex flex-col items-center pb-12 bg-gradient-to-t from-teal-700/60 via-transparent to-transparent">
-          {/* here will be logoicon  */}
-            <p className="text-white text-2xl font-bold drop-shadow-lg">Your way to success</p>
+            <LogoIcon2 />
+         
+            <p className="text-white text-1xl font-bold drop-shadow-lg mt-4">Your way to success</p>
           </div>
         </div>
       </div>
