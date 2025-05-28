@@ -39,7 +39,7 @@ function CompanyDetails() {
           </div>
         </div>
         <hr className="border-gray-200 my-4" />
-        <div className="flex border-b mb-4">
+        <div className="flex mb-4">
           <button
             className={`px-4 py-2 text-base font-semibold focus:outline-none ${activeTab === 'details' ? 'border-b-2 border-[#4CB7A7] text-[#4CB7A7]' : 'text-gray-500'}`}
             onClick={() => handleTab('details')}
