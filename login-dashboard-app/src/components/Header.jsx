@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <Card className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b-0 rounded-b-none rounded-t-xl shadow-none mb-2">
+    <Card className="flex flex-col  rounded-xl  md:flex-row md:items-center md:justify-between rounded-xl  gap-4 border-b-0 rounded-b-none rounded-t-lg shadow-none rounded-xl ">
       <div className="flex items-center gap-4 flex-1">
         <nav className="text-xs text-gray-400 flex items-center gap-2">
           <span className="hover:underline cursor-pointer">Requests</span>
