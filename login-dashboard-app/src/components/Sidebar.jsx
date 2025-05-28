@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import LogoIcon from './icons/LogoIcon';
 import LogoIcon2 from './icons/LogoIcon2';
+import MenuIcon from './icons/MenuIcon';
 
 const Sidebar = () => {
   const menuItems = [
@@ -32,8 +33,8 @@ const Sidebar = () => {
       <div className="p-4 border-b border-white/10">
         <div className="flex items-center justify-between">
           <LogoIcon2 />
-          <div className="w-8 h-8 bg-white/20 rounded flex items-center justify-center">
-            <span className="text-sm">⊞</span>
+          <div className="w-8 h-8 rounded flex items-center justify-center">
+            <MenuIcon className="w-5 h-5 text-white" />
           </div>
         </div>
       </div>
